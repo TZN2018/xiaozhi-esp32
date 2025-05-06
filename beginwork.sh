@@ -4,7 +4,7 @@ git checkout self
 # 切换到 main 分支同步更新
 git checkout main
 git fetch upstream
-git merge upstream/main
+git merge upstream main
 git push origin main
 git checkout self
 # 同步其他分支（非 main）
